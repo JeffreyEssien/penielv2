@@ -17,7 +17,7 @@ export default function Navbar() {
     return(
         <div className="flex flex-col">
             <div className="flex flex-row justify-between">
-            <Image src={image1} alt="image" className="px-4 py-8"/>
+            <Link href={'/'}><Image src={image1} alt="image" className="px-4 py-8"/></Link>
             <div className="flex">
                 <button onClick={handleNavabar} className="text-3xl px-4 dark:text-blue-500"><FaBars /></button>
             </div>
@@ -28,7 +28,7 @@ export default function Navbar() {
                <Link href={'/about'}> <p className="text-xl xl:text-2xl font-medium py-2 dark:text-blue-500">About Us</p> </Link>
                 <Link href={'/businessAreas'}><p className="text-xl xl:text-2xl font-medium py-2 dark:text-blue-500">Business Areas</p></Link>
                 <p className="text-xl xl:text-2xl font-medium py-2 dark:text-blue-500">Blog</p>
-                <p className="text-xl xl:text-2xl font-medium py-2 dark:text-blue-500">Contact Us</p>
+               <Link href={'/conatct'}> <p className="text-xl xl:text-2xl font-medium py-2 dark:text-blue-500">Contact Us</p></Link>
                 </div>
                 )}
         </div>
