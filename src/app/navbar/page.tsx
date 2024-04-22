@@ -3,7 +3,7 @@
 import Image from "next/image"
 import image1 from '../images/peniel-logo.png'
 import { useState } from "react"
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Link from "next/link"
 
 export default function Navbar() {
@@ -11,7 +11,7 @@ export default function Navbar() {
     const [isNavbarOPen, setIsNavbarOPen] = useState(false)
 
     const handleNavabar = () => {
-        setIsNavbarOPen(true)
+        setIsNavbarOPen(!isNavbarOPen)
     }
 
     return(
@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="flex flex-row justify-between">
             <Link href={'/'}><Image src={image1} alt="image" className="px-4 py-8"/></Link>
             <div className="flex">
-                <button onClick={handleNavabar} className="text-3xl px-4 dark:text-blue-500"><FaBars /></button>
+                <button onClick={handleNavabar} className="text-3xl px-4 dark:text-blue-500">{isNavbarOPen ? <FaTimes/> : <FaBars />}</button>
             </div>
             </div>
             {isNavbarOPen && ( 

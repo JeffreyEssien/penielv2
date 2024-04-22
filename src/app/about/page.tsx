@@ -20,7 +20,7 @@ export default function About() {
                 <div className="px-4 flex flex-col lg:flex-row lg:w-[79%] lg:mx-auto items-center">
                     <div className="lg:w-[40%] flex-col">
                     <p className="text-3xl py-2 font-medium">Our Mission</p>
-                    <p className="lg:w-[70%] text-2xl pb-10 dark:text-gray-500">To provide first rate and highly reliable software solutions that ease client’s daily computable tasks with utmost attention to satisfaction.</p>
+                    <p className="lg:w-[70%] text-xl xl:text-2xl pb-10 dark:text-gray-500">To provide first rate and highly reliable software solutions that ease client’s daily computable tasks with utmost attention to satisfaction.</p>
 
                     <div className="hidden lg:flex flex-col ">
                         <p className="text-3xl py-2 font-medium">Our Vision</p>
@@ -42,12 +42,12 @@ export default function About() {
                 </div>
                 <div className="px-4 lg:hidden mt-10">
                     <p className="text-4xl py-2 font-medium">Our Vision</p>
-                    <p className="xl:w-[70%] text-2xl pb-10">Empowering clients with sustainable competitive advantage by providing innovative business software solutions and excellent services within cost effective bottom-line.</p>
+                    <p className="xl:w-[70%] text-xl xl:text-2xl pb-10 dark:text-gray-500">Empowering clients with sustainable competitive advantage by providing innovative business software solutions and excellent services within cost effective bottom-line.</p>
                     <Image src={image2} alt="image 2" />
                 </div>
                 <div className="flex flex-col px-4 lg:hidden mt-10">
                     <p className="text-3xl py-2 font-medium">Our Motto</p>
-                    <p className="lg:w-[70%] text-2xl pb-10">Innovation. Value. Satisfaction</p>
+                    <p className="lg:w-[70%] text-xl xl:text-2xl pb-10 dark:text-gray-500">Innovation. Value. Satisfaction</p>
                     <Image src={image3} alt="image 3" />
                 </div>
             </div>

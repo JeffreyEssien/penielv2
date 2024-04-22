@@ -21,8 +21,8 @@ export default function Contact() {
       <p className="text-center text-5xl py-20 font-black tracking-widest">Contact</p>
       <div className="flex flex-col lg:flex-row lg:w-[85%] lg:justify-around mx-auto">
         <div className="flex flex-col lg:w-[40%]">
-          <p className="text-4xl font-bold">Get In Touch</p>
-          <p className="dark:text-gray-500 text-xl">
+          <p className="text-3xl xl:text-4xl font-bold w-[80%] mx-auto">Get In Touch</p>
+          <p className="dark:text-gray-500 text-lg w-[80%] mx-auto xl:text-xl">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis atque
             maiores, at deleniti tenetur iure quisquam nam soluta voluptatem
             voluptate eaque earum aliquam, explicabo vero quas aliquid maxime
